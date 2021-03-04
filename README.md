@@ -6,21 +6,27 @@ The oscillator is the preliminary model to test the multiagent synchronization u
 ### Multiagent_Linear_Oscillator_Sim.py:
   
   Description: 
+  
     This python code simulates the synchronization of oscillators using a linear multiagent controller. This then simulation outputs the results to a mat file to be plotted and evaluated using MATLAB. 
 
   Commandline prompt to run: 
+  
     python Multiagent_Linear_Oscillator_Sim.py
   
   Output File:
+  
     Linear_Oscillator_Results_{time}.mat
 
 ### Multiagent_Oscillator_Sim.py:
 
   Description: 
+  
     This python code simulates the synchronization of oscillators using an online reinforcement learning controller, utilizing a radial basis function. This then simulation outputs the results to a mat file to be plotted and evaluated using MATLAB. 
-
-  Commandline prompt to run: 
+    
+  Commandline prompt to run:
+  
     python Multiagent_Oscillator_Sim.py
   
   Output File: 
+  
     Oscillator_Results_{time}.mat
